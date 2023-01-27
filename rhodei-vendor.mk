@@ -1044,3 +1044,22 @@ PRODUCT_PACKAGES += \
     vendor.dolby.hardware.dms \
     vendor.dolby.media.c2@1.0-service
 
+# FM
+PRODUCT_COPY_FILES += \
+    vendor/motorola/rhodei/proprietary/system_ext/lib/fm_helium.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/fm_helium.so \
+    vendor/motorola/rhodei/proprietary/system_ext/lib/libfm-hci.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libfm-hci.so \
+    vendor/motorola/rhodei/proprietary/system_ext/lib/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.fm@1.0.so \
+    vendor/motorola/rhodei/proprietary/system_ext/lib64/fm_helium.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/fm_helium.so \
+    vendor/motorola/rhodei/proprietary/system_ext/lib64/libfm-hci.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libfm-hci.so \
+    vendor/motorola/rhodei/proprietary/system_ext/lib64/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.fm@1.0.so \
+    vendor/motorola/rhodei/proprietary/vendor/bin/fm_qsoc_patches:$(TARGET_COPY_OUT_VENDOR)/bin/fm_qsoc_patches \
+    vendor/motorola/rhodei/proprietary/vendor/bin/hw/motorola.hardware.fmradio@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/motorola.hardware.fmradio@1.0-service \
+    vendor/motorola/rhodei/proprietary/vendor/etc/init/motorola.hardware.fmradio@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.fmradio@1.0-service.rc \
+    vendor/motorola/rhodei/proprietary/vendor/lib/ftm_fm_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/ftm_fm_lib.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fm@1.0.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib64/ftm_fm_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ftm_fm_lib.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib64/motorola.hardware.fmradio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.fmradio@1.0.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fm@1.0.so
+
