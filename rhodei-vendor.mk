@@ -2370,3 +2370,18 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     vendor/motorola/rhodei/proprietary/vendor/lib/libstreamparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstreamparser.so
 
+# Vibrator
+PRODUCT_COPY_FILES += \
+    vendor/motorola/rhodei/proprietary/vendor/bin/hw/vendor.qti.hardware.vibrator.service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.vibrator.service \
+    vendor/motorola/rhodei/proprietary/vendor/etc/init/vendor.qti.hardware.vibrator.service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.vibrator.service.rc \
+    vendor/motorola/rhodei/proprietary/vendor/lib/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.default.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib/modules/5.4-gki/ldo_vibrator_mmi.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/5.4-gki/ldo_vibrator_mmi.ko \
+    vendor/motorola/rhodei/proprietary/vendor/lib/modules/5.4-gki/leds-qpnp-vibrator-ldo.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/5.4-gki/leds-qpnp-vibrator-ldo.ko \
+    vendor/motorola/rhodei/proprietary/vendor/lib/modules/ldo_vibrator_mmi.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/ldo_vibrator_mmi.ko \
+    vendor/motorola/rhodei/proprietary/vendor/lib64/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vibrator.default.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib64/libqtivibratoreffect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqtivibratoreffect.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib64/vendor.qti.hardware.vibrator.impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.vibrator.impl.so
+
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.vibrator.service
+
