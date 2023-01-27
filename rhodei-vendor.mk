@@ -1018,3 +1018,11 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.allocator-service \
     vendor.qti.hardware.display.composer-service
 
+# Display-calibration
+PRODUCT_COPY_FILES += \
+    vendor/motorola/rhodei/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_vid_tm_nt36672c_fhdp_645_120.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_vid_tm_nt36672c_fhdp_645_120.xml \
+    vendor/motorola/rhodei/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_vid_txd_ili7807s_fhdp_645_120.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_vid_txd_ili7807s_fhdp_645_120.xml \
+    vendor/motorola/rhodei/proprietary/vendor/etc/qdcm_calib_data_nt36672e_60_Hz_fhd_plus_video_mode_panel_without_DSC.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt36672e_60_Hz_fhd_plus_video_mode_panel_without_DSC.xml \
+    vendor/motorola/rhodei/proprietary/vendor/etc/qdcm_calib_data_nt36672e_fhd_plus_120Hz_Video_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt36672e_fhd_plus_120Hz_Video_panel.xml \
+    vendor/motorola/rhodei/proprietary/vendor/etc/qdcm_calib_data_nt36672e_fhd_plus_144Hz_video_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt36672e_fhd_plus_144Hz_video_panel.xml
+
