@@ -1435,3 +1435,13 @@ PRODUCT_PACKAGES += \
     vendor.qti.latency-V2.0-java \
     vendor.qti.latency-V2.1-java
 
+# Lights
+PRODUCT_COPY_FILES += \
+    vendor/motorola/rhodei/proprietary/vendor/bin/hw/android.hardware.lights-service.qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.lights-service.qti \
+    vendor/motorola/rhodei/proprietary/vendor/etc/init/android.hardware.lights-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.lights-qti.rc \
+    vendor/motorola/rhodei/proprietary/vendor/lib/hw/lights.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/lights.qcom.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib64/hw/lights.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/lights.qcom.so
+
+PRODUCT_PACKAGES += \
+    android.hardware.lights-qti
+
