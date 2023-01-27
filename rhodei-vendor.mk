@@ -265,3 +265,14 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rhodei/proprietary/vendor/lib64/vendor.qti.hardware.btconfigstore@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.btconfigstore@1.0.so \
     vendor/motorola/rhodei/proprietary/vendor/lib64/vendor.qti.hardware.btconfigstore@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.btconfigstore@2.0.so
 
+# Bluetooth-AptX
+PRODUCT_COPY_FILES += \
+    vendor/motorola/rhodei/proprietary/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptXHD_encoder.so \
+    vendor/motorola/rhodei/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
+    vendor/motorola/rhodei/proprietary/system_ext/bin/aptxalsOverlayCreateProject.sh:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/aptxalsOverlayCreateProject.sh \
+    vendor/motorola/rhodei/proprietary/system_ext/etc/permissions/privapp-permissions-aptxals.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-aptxals.xml \
+    vendor/motorola/rhodei/proprietary/system_ext/etc/permissions/privapp-permissions-com.bluetooth.aptxmode.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-com.bluetooth.aptxmode.xml
+
+PRODUCT_PACKAGES += \
+    MotoBtAptxMode
+
