@@ -846,3 +846,21 @@ dex_import {
 	system_ext_specific: true,
 }
 
+android_app_import {
+	name: "WfdService",
+	owner: "motorola",
+	apk: "proprietary/system_ext/priv-app/WfdService/WfdService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "WfdCommon",
+	owner: "motorola",
+	jars: ["proprietary/framework/WfdCommon.jar"],
+}
+
