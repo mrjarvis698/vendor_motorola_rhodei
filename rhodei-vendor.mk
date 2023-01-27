@@ -1362,3 +1362,19 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rhodei/proprietary/vendor/lib64/libsdm-disp-vndapis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-disp-vndapis.so \
     vendor/motorola/rhodei/proprietary/vendor/lib64/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyxml2_1.so
 
+# Health
+PRODUCT_COPY_FILES += \
+    vendor/motorola/rhodei/proprietary/vendor/bin/hw/android.hardware.health@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.health@2.1-service \
+    vendor/motorola/rhodei/proprietary/vendor/bin/hw/motorola.hardware.health.storage@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/motorola.hardware.health.storage@1.0-service \
+    vendor/motorola/rhodei/proprietary/vendor/bin/hw/motorola.hardware.health@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/motorola.hardware.health@2.0-service \
+    vendor/motorola/rhodei/proprietary/vendor/etc/init/android.hardware.health@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.health@2.1-service.rc \
+    vendor/motorola/rhodei/proprietary/vendor/etc/init/motorola.hardware.health.storage@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.health.storage@1.0-service.rc \
+    vendor/motorola/rhodei/proprietary/vendor/etc/init/motorola.hardware.health@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.health@2.0-service.rc \
+    vendor/motorola/rhodei/proprietary/vendor/lib/hw/android.hardware.health@2.0-impl-2.1-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.health@2.0-impl-2.1-qti.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib64/hw/android.hardware.health@2.0-impl-2.1-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.health@2.0-impl-2.1-qti.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib64/motorola.hardware.health.storage@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.health.storage@1.0.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib64/motorola.hardware.health@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.health@2.0.so
+
+PRODUCT_PACKAGES += \
+    android.hardware.health@2.1
+
