@@ -729,3 +729,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     com.motorola.hardware.camera.desktop
 
+# Camera-arcsoft
+PRODUCT_COPY_FILES += \
+    vendor/motorola/rhodei/proprietary/vendor/lib/libarcsoft_low_light_shot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_low_light_shot.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib64/libarcsoft_low_light_shot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_low_light_shot.so
+
