@@ -37,3 +37,28 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rhodei/proprietary/vendor/lib64/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdsprpc.so \
     vendor/motorola/rhodei/proprietary/vendor/lib64/libsdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdsprpc.so
 
+# ADSP-Modules
+PRODUCT_COPY_FILES += \
+    vendor/motorola/rhodei/proprietary/vendor/lib/rfsa/adsp/bm2n06.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/bm2n06.bin \
+    vendor/motorola/rhodei/proprietary/vendor/lib/rfsa/adsp/bm2n08.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/bm2n08.bin \
+    vendor/motorola/rhodei/proprietary/vendor/lib/rfsa/adsp/bm2n12.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/bm2n12.bin \
+    vendor/motorola/rhodei/proprietary/vendor/lib/rfsa/adsp/bm2n13.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/bm2n13.bin \
+    vendor/motorola/rhodei/proprietary/vendor/lib/rfsa/adsp/bm2n14.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/bm2n14.bin \
+    vendor/motorola/rhodei/proprietary/vendor/lib/rfsa/adsp/bm2n15.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/bm2n15.bin \
+    vendor/motorola/rhodei/proprietary/vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Encoder.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib/rfsa/adsp/libadsp_jpege_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libadsp_jpege_skel.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libapps_mem_heap.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib/rfsa/adsp/libbitml_nsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libbitml_nsp_skel.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib/rfsa/adsp/libbitml_nsp_v2_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libbitml_nsp_v2_skel.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib/rfsa/adsp/libcamera_nn_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libcamera_nn_skel.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libdspCV_skel.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib/rfsa/adsp/libdsp_streamer_binning.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libdsp_streamer_binning.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libfastcvadsp.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib/rfsa/adsp/libfastcvdsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libfastcvdsp_skel.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib/rfsa/adsp/libhdr_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libhdr_skel.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib/rfsa/adsp/libhexagon_nn_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libhexagon_nn_skel.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib/rfsa/adsp/libmctfengine_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libmctfengine_skel.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib/rfsa/adsp/libneat_1_1_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libneat_1_1_skel.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib/rfsa/adsp/libsns_device_mode_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libsns_device_mode_skel.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libsns_low_lat_stream_skel.so
+
