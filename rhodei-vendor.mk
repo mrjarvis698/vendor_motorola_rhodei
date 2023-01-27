@@ -1543,3 +1543,51 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libplatformconfig
 
+# Motorola
+PRODUCT_COPY_FILES += \
+    vendor/motorola/rhodei/proprietary/vendor/bin/hw/motorola.hardware.fdrcontrol@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/motorola.hardware.fdrcontrol@1.2-service \
+    vendor/motorola/rhodei/proprietary/vendor/bin/hw/motorola.hardware.input@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/motorola.hardware.input@1.0-service \
+    vendor/motorola/rhodei/proprietary/vendor/bin/hw/motorola.hardware.vibrator@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/motorola.hardware.vibrator@1.0-service \
+    vendor/motorola/rhodei/proprietary/vendor/bin/motobox:$(TARGET_COPY_OUT_VENDOR)/bin/motobox \
+    vendor/motorola/rhodei/proprietary/vendor/etc/init/motorola.hardware.fdrcontrol@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.fdrcontrol@1.2-service.rc \
+    vendor/motorola/rhodei/proprietary/vendor/etc/init/motorola.hardware.input@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.input@1.0-service.rc \
+    vendor/motorola/rhodei/proprietary/vendor/etc/init/motorola.hardware.vibrator@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.vibrator@1.0-service.rc \
+    vendor/motorola/rhodei/proprietary/vendor/etc/motorola/12m/2kHz_Mono_1s.wav:$(TARGET_COPY_OUT_VENDOR)/etc/motorola/12m/2kHz_Mono_1s.wav \
+    vendor/motorola/rhodei/proprietary/vendor/etc/motorola/12m/TM655_driver_Command.ini:$(TARGET_COPY_OUT_VENDOR)/etc/motorola/12m/TM655_driver_Command.ini \
+    vendor/motorola/rhodei/proprietary/vendor/etc/motorola/12m/audio_cal.wav:$(TARGET_COPY_OUT_VENDOR)/etc/motorola/12m/audio_cal.wav \
+    vendor/motorola/rhodei/proprietary/vendor/etc/motorola/12m/chipone-icnl9922_120hz_fhd_plus_vid-ICNL9922-rhodec.ini:$(TARGET_COPY_OUT_VENDOR)/etc/motorola/12m/chipone-icnl9922_120hz_fhd_plus_vid-ICNL9922-rhodec.ini \
+    vendor/motorola/rhodei/proprietary/vendor/etc/motorola/12m/cqatest_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/motorola/12m/cqatest_config.xml \
+    vendor/motorola/rhodei/proprietary/vendor/etc/motorola/12m/key_code_map.txt:$(TARGET_COPY_OUT_VENDOR)/etc/motorola/12m/key_code_map.txt \
+    vendor/motorola/rhodei/proprietary/vendor/etc/motorola/12m/tcmd_leds.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/motorola/12m/tcmd_leds.cfg \
+    vendor/motorola/rhodei/proprietary/vendor/etc/motorola/mdmctbk/ctbk_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/motorola/mdmctbk/ctbk_cfg.xml \
+    vendor/motorola/rhodei/proprietary/vendor/etc/motorola/props/sku.n.prop:$(TARGET_COPY_OUT_VENDOR)/etc/motorola/props/sku.n.prop \
+    vendor/motorola/rhodei/proprietary/vendor/etc/motorola/props/sku.nc.prop:$(TARGET_COPY_OUT_VENDOR)/etc/motorola/props/sku.nc.prop \
+    vendor/motorola/rhodei/proprietary/vendor/etc/motorola/props/sku.nq.prop:$(TARGET_COPY_OUT_VENDOR)/etc/motorola/props/sku.nq.prop \
+    vendor/motorola/rhodei/proprietary/vendor/etc/motorola/props/sku.q.prop:$(TARGET_COPY_OUT_VENDOR)/etc/motorola/props/sku.q.prop \
+    vendor/motorola/rhodei/proprietary/vendor/etc/motorola/tcmd/cid_template.dat:$(TARGET_COPY_OUT_VENDOR)/etc/motorola/tcmd/cid_template.dat \
+    vendor/motorola/rhodei/proprietary/vendor/etc/motorola/tcmd/cid_template.locked:$(TARGET_COPY_OUT_VENDOR)/etc/motorola/tcmd/cid_template.locked \
+    vendor/motorola/rhodei/proprietary/vendor/etc/motorola/tcmd/cid_template.unlocked:$(TARGET_COPY_OUT_VENDOR)/etc/motorola/tcmd/cid_template.unlocked \
+    vendor/motorola/rhodei/proprietary/vendor/lib/hw/motorola.hardware.vibrator@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/motorola.hardware.vibrator@1.0-impl.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib/libmot_afd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmot_afd.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib/libmotaudioutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmotaudioutils.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib/libmotext_inf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmotext_inf.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib/motorola.hardware.tcmd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/motorola.hardware.tcmd@1.0.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib/motorola.hardware.vibrator@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/motorola.hardware.vibrator@1.0.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib64/hw/motorola.hardware.vibrator@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/motorola.hardware.vibrator@1.0-impl.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib64/libmot_afd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmot_afd.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib64/libmotext_inf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmotext_inf.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib64/libmotohid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmotohid.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib64/motorola.hardware.fdrcontrol@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.fdrcontrol@1.0.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib64/motorola.hardware.fdrcontrol@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.fdrcontrol@1.1.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib64/motorola.hardware.fdrcontrol@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.fdrcontrol@1.2.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib64/motorola.hardware.input@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.input@1.0.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib64/motorola.hardware.sxf-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.sxf-V1-ndk_platform.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib64/motorola.hardware.vibrator@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.vibrator@1.0.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib64/motorola.hardware.wifi.supplicant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.wifi.supplicant@1.0.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib64/motorola.hardware.wifi.supplicant@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.wifi.supplicant@1.0_vendor.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib64/motorola.hardware.wifi.supplicant@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.wifi.supplicant@1.1.so
+
+PRODUCT_PACKAGES += \
+    motorola.hardware.input@1.0-service \
+    vendor.motorola.hardware.motosxf.service
+

@@ -504,3 +504,21 @@ cc_prebuilt_library_shared {
 	soc_specific: true,
 }
 
+prebuilt_etc_xml {
+	name: "motorola.hardware.input@1.0-service",
+	owner: "motorola",
+	src: "proprietary/vendor/etc/vintf/manifest/motorola.hardware.input@1.0-service.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "vendor.motorola.hardware.motosxf.service",
+	owner: "motorola",
+	src: "proprietary/vendor/etc/vintf/manifest/vendor.motorola.hardware.motosxf.service.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
