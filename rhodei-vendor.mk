@@ -2366,3 +2366,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     TimeService
 
+# UBWC
+PRODUCT_COPY_FILES += \
+    vendor/motorola/rhodei/proprietary/vendor/lib/libstreamparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstreamparser.so
+
