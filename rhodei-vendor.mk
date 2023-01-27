@@ -1591,3 +1591,43 @@ PRODUCT_PACKAGES += \
     motorola.hardware.input@1.0-service \
     vendor.motorola.hardware.motosxf.service
 
+# NFC
+PRODUCT_COPY_FILES += \
+    vendor/motorola/rhodei/proprietary/etc/permissions/com.nxp.nfc.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.nxp.nfc.xml \
+    vendor/motorola/rhodei/proprietary/system_ext/etc/nfcee_access.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/nfcee_access.xml \
+    vendor/motorola/rhodei/proprietary/system_ext/lib/vendor.nxp.hardware.nfc@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.nxp.hardware.nfc@1.0.so \
+    vendor/motorola/rhodei/proprietary/system_ext/lib/vendor.nxp.hardware.nfc@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.nxp.hardware.nfc@1.1.so \
+    vendor/motorola/rhodei/proprietary/system_ext/lib/vendor.nxp.hardware.nfc@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.nxp.hardware.nfc@2.0.so \
+    vendor/motorola/rhodei/proprietary/system_ext/lib64/vendor.nxp.hardware.nfc@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.nxp.hardware.nfc@1.0.so \
+    vendor/motorola/rhodei/proprietary/system_ext/lib64/vendor.nxp.hardware.nfc@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.nxp.hardware.nfc@1.1.so \
+    vendor/motorola/rhodei/proprietary/system_ext/lib64/vendor.nxp.hardware.nfc@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.nxp.hardware.nfc@2.0.so \
+    vendor/motorola/rhodei/proprietary/vendor/bin/hw/vendor.nxp.hardware.nfc@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.nxp.hardware.nfc@2.0-service \
+    vendor/motorola/rhodei/proprietary/vendor/bin/nqnfcinfo:$(TARGET_COPY_OUT_VENDOR)/bin/nqnfcinfo \
+    vendor/motorola/rhodei/proprietary/vendor/etc/init/vendor.nxp.hardware.nfc@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.nxp.hardware.nfc@2.0-service.rc \
+    vendor/motorola/rhodei/proprietary/vendor/etc/libnfc-mtp-SN100.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp-SN100.conf \
+    vendor/motorola/rhodei/proprietary/vendor/etc/libnfc-mtp-SN100_38_4MHZ.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp-SN100_38_4MHZ.conf \
+    vendor/motorola/rhodei/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
+    vendor/motorola/rhodei/proprietary/vendor/etc/libnfc-nxp-pnscr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp-pnscr.conf \
+    vendor/motorola/rhodei/proprietary/vendor/etc/libnfc-qrd-SN100.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-qrd-SN100.conf \
+    vendor/motorola/rhodei/proprietary/vendor/etc/libnfc-qrd-SN100_38_4MHZ.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-qrd-SN100_38_4MHZ.conf \
+    vendor/motorola/rhodei/proprietary/vendor/etc/nfc_calibration.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nfc_calibration.txt \
+    vendor/motorola/rhodei/proprietary/vendor/etc/permissions/com.android.nfc_extras.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.android.nfc_extras.xml \
+    vendor/motorola/rhodei/proprietary/vendor/etc/permissions/com.nxp.mifare.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.nxp.mifare.xml \
+    vendor/motorola/rhodei/proprietary/vendor/lib/modules/5.4-gki/sec_nfc.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/5.4-gki/sec_nfc.ko \
+    vendor/motorola/rhodei/proprietary/vendor/lib/modules/sec_nfc.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/sec_nfc.ko \
+    vendor/motorola/rhodei/proprietary/vendor/lib/nfc_nci.nqx.default.hw.so:$(TARGET_COPY_OUT_VENDOR)/lib/nfc_nci.nqx.default.hw.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib/vendor.nxp.hardware.nfc@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.nxp.hardware.nfc@2.0.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib64/nfc_nci.nqx.default.hw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nfc_nci.nqx.default.hw.so \
+    vendor/motorola/rhodei/proprietary/vendor/lib64/vendor.nxp.hardware.nfc@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.nxp.hardware.nfc@2.0.so \
+    vendor/motorola/rhodei/proprietary/vendor/odm/etc/permissions/sku_b/unavail.android.hardware.nfc.hce.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/permissions/sku_b/unavail.android.hardware.nfc.hce.xml \
+    vendor/motorola/rhodei/proprietary/vendor/odm/etc/permissions/sku_b/unavail.android.hardware.nfc.hcef.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/permissions/sku_b/unavail.android.hardware.nfc.hcef.xml \
+    vendor/motorola/rhodei/proprietary/vendor/odm/etc/permissions/sku_b/unavail.android.hardware.nfc.uicc.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/permissions/sku_b/unavail.android.hardware.nfc.uicc.xml \
+    vendor/motorola/rhodei/proprietary/vendor/odm/etc/permissions/sku_b/unavail.android.hardware.nfc.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/permissions/sku_b/unavail.android.hardware.nfc.xml \
+    vendor/motorola/rhodei/proprietary/vendor/odm/etc/permissions/sku_d/unavail.android.hardware.nfc.hce.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/permissions/sku_d/unavail.android.hardware.nfc.hce.xml \
+    vendor/motorola/rhodei/proprietary/vendor/odm/etc/permissions/sku_d/unavail.android.hardware.nfc.hcef.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/permissions/sku_d/unavail.android.hardware.nfc.hcef.xml \
+    vendor/motorola/rhodei/proprietary/vendor/odm/etc/permissions/sku_d/unavail.android.hardware.nfc.uicc.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/permissions/sku_d/unavail.android.hardware.nfc.uicc.xml \
+    vendor/motorola/rhodei/proprietary/vendor/odm/etc/permissions/sku_d/unavail.android.hardware.nfc.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/permissions/sku_d/unavail.android.hardware.nfc.xml
+
+PRODUCT_PACKAGES += \
+    com.nxp.nfc
+
